@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".anxiety2"
+    android:background="#138D75">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anxiety disorders"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anxiety disorders is a group of mental health disorders that includes generalised
+anxiety disorders, social phobias, specific phobias (for example, agoraphobia and
+claustrophobia), panic disorders, obsessive compulsive disorder (OCD) and posttraumatic stress disorder. Untreated, anxiety disorders can lead to significant
+impairment on people’s daily lives.
+"                android:textColor="@color/white"
+                android:gravity="left"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Symptoms of anxiety disorders"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The main features of an anxiety disorder are fears or thoughts that are chronic
+(constant) and distressing and that interfere with daily living. Other symptoms of an
+anxiety disorder may include:
+• Panic or anxiety attacks or a fear of these attacks/n
+• Physical anxiety reactions – for example trembling, sweating, faintness, rapid /n
+• Avoidance behaviour – a person may go to extreme lengths to avoid a /n
+situation that they think could bring on anxiety or panic./n
+"                android:textColor="@color/white"
+                android:gravity="left"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Types of anxiety disorders"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anxiety becomes a disorder when it’s irrational, excessive and when it interferes with
+a person’s ability to function in daily life. Anxiety disorders include:
+• Generalised anxiety disorder/n
+• Social phobias – fear of social situations/n
+• Specific phobias – for example a fear of open spaces (agoraphobia) or
+enclosed spaces (claustrophobia)/n
+• Panic disorders – frequent and debilitating panic attacks./n
+"                android:textColor="@color/white"
+                android:gravity="left"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recovery is possible with treatment"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recovery from an anxiety disorder is possible with the right treatment and support.
+Effective treatments for anxiety disorders may include:
+• Cognitive behavioural therapy – aims to change patterns of thinking, beliefs /n
+and behaviours that may trigger anxiety./n
+• Exposure therapy – involves gradually exposing a person to situations that /n
+trigger anxiety using a fear hierarchy: this is called systematic desensitisation./n
+• Anxiety management and relaxation techniques – for example deep muscle /n
+relaxation, meditation, breathing exercises and counselling./n
+• Medication – this may include antidepressants and benzodiazepines./n
+"                android:textColor="@color/white"
+                android:gravity="left"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Where to get help"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Your doctor/n
+• Clinical psychologist/n
+• Psychiatrist/n
+"                android:textColor="@color/white"
+                android:gravity="left"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Where to get help"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Your doctor/n
+• Clinical psychologist/n
+• Psychiatrist/n
+"                android:textColor="@color/white"
+                android:gravity="left"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="to go back" />
+        </LinearLayout>
+    </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

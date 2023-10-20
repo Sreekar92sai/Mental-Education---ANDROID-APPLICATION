@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PTSD"
+    android:background="#D8589E">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="center"
+                android:text="Post-traumatic stress disorder"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="left"
+                android:text="Post-traumatic stress disorder (PTSD) is a mental health condition that can develop
+as a response to people who have experienced any traumatic event. This can be a
+car or other serious accident, physical or sexual assault, war-related events or
+torture, or natural disasters such as bushfires or floods.
+            "
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="center"
+                android:text="Behavioural and emotional disorders in children"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="left"
+                android:text="A person with PTSD has four main types of difficulties:\n
+• Re-living the traumatic event through unwanted and recurring memories,
+flashbacks or vivid nightmares. There may be intense emotional or physical
+reactions when reminded of the event including sweating, heart
+palpitations, anxiety or panic.\n
+• Avoiding reminders of the event, such as thoughts, feelings, people, places,
+activities or situations that bring back memories of the event. They may feel
+numb, empty or detached.\n
+• Negative changes in feelings and thoughts, such as feeling angry, afraid,
+guilty, flat or numb, developing beliefs such as “I’m bad” or “The world’s
+unsafe”, and feeling cut off from others.\n
+• Being overly alert or ‘wound up’ indicated by sleeping difficulties, irritability,
+lack of concentration, becoming easily startled and constantly being on the
+lookout for signs of danger.\n
+A health practitioner may diagnose PTSD if a person has symptoms in each of these
+four areas for a month or more, which lead to significant distress or impacts on their
+ability to work and study, their relationships and day-to-day life.\n
+People with PTSD can also have what are termed ‘dissociative experiences’, which
+are frequently described as:
+• “It was as though I wasn’t even there.”\n
+• “Time was standing still.”\n
+• “I felt like I was watching things happen from above.”\n
+
+            "
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="center"
+                android:text="Treatment for PTSD"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="left"
+                android:text="If you are still experiencing problems after two weeks, a doctor or mental health
+professional may discuss starting treatment. Effective treatments are available. Most
+involve psychological treatment such as counselling to understand what is
+happening and to develop ways of managing reactions, but medication can also be
+helpful. Generally, it’s best to start with psychological treatment rather than use
+medication as the first and only solution to the problem.\n
+The cornerstone of treatment for PTSD involves confronting the traumatic memory
+and working through thoughts and beliefs associated with the experience as part of a
+safe relationship with a trained person.\n
+Trauma-focussed treatments can:\n
+• reduce PTSD symptoms\n
+• lessen anxiety and depression\n
+• improve a person’s quality of life\n
+• be effective for people who have experienced prolonged or repeated
+traumatic events, though treatment may be required for a longer period.\n
+
+            "
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="center"
+                android:text="Where to get help"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="left"
+                android:text="• Your GP (doctor)\n
+• Your mental health specialist, such as
+a psychiatrist, psychologist, counsellor or social worker\n
+• Your local community health centre\n
+            "
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="to go back" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

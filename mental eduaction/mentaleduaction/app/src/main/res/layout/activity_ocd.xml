@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OCD"
+    android:background="#58D8A0">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="center"
+                android:text="Obsessive compulsive disorder"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="left"
+                android:text="Obsessive compulsive disorder (OCD) is an anxiety disorder. Obsessions are
+recurrent thoughts, images or impulses that are intrusive and unwanted.
+Compulsions are time-consuming and distressing repetitive rituals. Ttreatments
+include cognitive behaviour therapy (CBT), and medications
+            "
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="center"
+                android:text="Symptoms of OCD – obsessions"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="left"
+                android:text="Obsessions are usually exaggerated versions of concerns and worries that most
+people have at some time. Common obsessions include:\n
+• fear of contamination from germs, dirt, poisons, and other physical and
+environmental substances\n
+• fear of harm from illness, accidents or death that may occur to oneself or to
+others. This may include an excessive sense of responsibility for preventing
+this harm\n
+• intrusive thoughts and images about sex, violence, accidents and other issues\n
+• excessive concern with symmetry, exactness and orderliness\n
+• excessive concerns about illness, religious issues or morality\n
+• needing to know and remember things.\n\n
+Obsessions may be constantly on a person’s mind. They may also be triggered by
+physical objects, situations, smells or something heard on television, radio or in a
+conversation. Obsessive fears usually move beyond a specific trigger – for example,
+a bottle of coolant – to include anything that might look like it or have been near it,
+such as cars, car keys, a puddle on the road, supermarket shelves and petrol
+stations. \n\n
+Obsessions can change in nature and severity and do not respond to logic.
+Obsessional anxiety leads to vigilance for possible threats, and a compelling need
+for certainty and control. Obsessions can produce feelings ranging from annoyance
+and discomfort to acute distress, disgust and panic.
+
+            "
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="center"
+                android:text="Symptoms of OCD – compulsions"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="left"
+                android:text="Compulsions can be behavioural (actions) or mental (thoughts). Compulsions are
+repetitive actions that are often carried out in a special pattern or according to
+specific rules. Compulsions are usually performed to try and prevent an obsessive
+fear from happening, to reduce the anxiety the obsessive thought creates, or to
+make things feel ‘just right’.\n
+Common compulsions include:\n
+• excessive hand washing, showering and tooth brushing\n
+• excessive cleaning and washing of house, household items, food, car and
+other areas\n
+• excessive checking of locks, electrical and gas appliances, and other things
+associated with safety\n
+• repeating routine activities and actions such as reading, writing, walking,
+picking up something or opening a door\n
+• applying rigid rules and patterns to the placement of objects, furniture, books,
+clothes and other items\n
+• touching, tapping or moving in a particular way or a certain number of times\n
+• needing to constantly ask questions or confess to seek reassurance\n
+• mentally repeating words or numbers a certain number of times, or
+concentrating on ‘good’ or ‘safe’ numbers\n
+• replacing a ‘bad thought’ with a ‘good thought’.
+Usually compulsions become like rituals; they follow specific rules and patterns, and
+involve constant repetitions. Compulsions give an illusory sense of short-term relief
+to anxiety. However, they actually reinforce anxiety and make the obsessions seem
+more real, so that the anxiety soon returns.\n
+
+            "
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="center"
+                android:text="Treatment for OCD"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="left"
+                android:text="Treatment for OCD can include:\n
+•psychological treatments such as cognitive behaviour therapy\n
+•anxiety management techniques\n
+•support groups and education\n
+•medications.\n\n
+Psychological treatment such as cognitive behaviour therapy can improve
+symptoms, and this improvement is often maintained in the long term.
+            "
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="to go back" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

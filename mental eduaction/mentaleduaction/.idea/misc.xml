@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/mental eduaction/mentaleduaction/app/src/main/res/drawable/box.xml" value="0.1125" />
+        <entry key="..\:/mental eduaction/mentaleduaction/app/src/main/res/layout/activity_aboutapp.xml" value="0.2421875" />
+        <entry key="..\:/mental eduaction/mentaleduaction/app/src/main/res/layout/activity_npd.xml" value="0.21784420289855072" />
+        <entry key="..\:/mental eduaction/mentaleduaction/app/src/main/res/layout/activity_ocd.xml" value="0.21784420289855072" />
+        <entry key="..\:/mental eduaction/mentaleduaction/app/src/main/res/layout/activity_types.xml" value="0.2421875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

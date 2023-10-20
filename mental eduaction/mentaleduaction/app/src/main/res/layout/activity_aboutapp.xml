@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Aboutapp"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/dancing"
+                android:text="ABOUT THE APP"
+                android:textAlignment="center"
+                android:textColor="#28B463"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="283dp"
+                app:srcCompat="@drawable/mentalhealth" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="390dp"
+                android:fontFamily="@font/stich"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="We created this app with the intention of educating ourselves and others about mental health disorders and the stigma which we see in our day to day lives.Roughly 56 million Indians suffer from depression, and 38 million suffer from some anxiety disorder. India has one of the highest prevalences of mental illnesses globally. The National Mental Health Survey 2016 found that close to 14 per cent of India's population required active mental health interventions.Thats a lot larger number considering the amount of stigma and misconseptions we carry with ourselves.Most people face mental health issues but are to come out of the closet because of how people persieve it. Through this app we hope to provide you with \n1. better understanding of disorders \n2.misconceptions \n3.activities to deal with issues \n4.setting reminders to do the activities.\n "
+                android:textColor="#28B463"
+                android:textSize="20dp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="313dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:paddingBottom="10dp"
+                android:text="Lets start learning!!"
+                android:backgroundTintMode="src_in"
+                android:backgroundTint="#2ECC71"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="313dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:paddingBottom="10dp"
+                android:text="Log out"
+                android:backgroundTintMode="src_in"
+                android:backgroundTint="#00BDFF"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

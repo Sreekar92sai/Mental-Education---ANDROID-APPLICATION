@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".eatingdisorders"
+    android:background="#2C3E50">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="center"
+                android:text="Eating disorders"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="left"
+                android:text="Eating disorders include anorexia, bulimia nervosa and other binge eating disorders.
+            Eating disorders affect females and males and can have serious psychological and
+            physical consequences.
+            "
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="center"
+                android:text="Symptoms of eating disorders
+"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="left"
+                android:text="There are some warning signs that are common to people with eating disorders.
+These may include:\n
+• weight loss, weight gain or weight fluctuation – usually due to dieting, but
+sometimes from an illness or stressful situation\n
+• preoccupation with body appearance or weight\n
+• sensitivity to cold\n
+• faintness, dizziness and fatigue\n
+• increased mood changes and irritability\n
+• social withdrawal\n
+• anxiety or depression\n
+• inability to think rationally or concentrate\n
+• increased interest in preparing food for others\n
+• obsessive rituals, such as only drinking out of a certain cup\n
+• eating in secret\n
+• wearing baggy clothes or changes in clothing style\n
+• excessive or fluctuating exercise patterns\n
+• avoidance of social situations involving food\n
+• frequent excuses not to eat\n
+• disappearance of large amounts of food from the refrigerator or pantry\n
+• trips to the bathroom after meals\n
+• constant and excessive dieting\n
+            "
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="center"
+                android:text="Types of eating disorders"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="left"
+                android:text="The main types of eating disorder include:\n\n
+• anorexia nervosa – characterised by restricted eating, weight loss, and fear of
+gaining weight\n
+• bulimia nervosa – periods of binge eating (often in secret), followed by
+attempts to compensate with excessive exercise, vomiting, or periods of strict
+dieting. Binge eating is often accompanied by feelings of shame and being
+'out of control'\n
+• binge eating disorder – characterised by recurrent periods of binge eating.
+Binge eating can include:\n
+o eating much more than usual\n
+o eating until uncomfortably full\n
+o eating large amounts when not feeling hungry.\n
+Feelings of guilt, disgust and depression can follow binge eating episodes. Binge
+eating does not involve compensatory behaviours, such as for bulimia nervosa\n
+• other specified feeding or eating disorder (OSFED) – feeding or eating \n
+behaviours that cause the individual distress and impairment, but do not meet
+the criteria for the first three eating disorders.\n
+            "
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="center"
+                android:text="Treatment and recovery for people with eating disorders"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="left"
+                android:text="Many different forms of therapy are available. It is important to remember that
+different approaches work for different people. Finding the right approach and early
+intervention maximises prospects of recovery. Professional help and support from
+others is important.\n
+Because eating disorders affect people physically and mentally, a range of health
+professionals might be involved in treatment, including:\n
+• psychiatrists\n
+• psychologists\n
+• GPs\n
+• dietitians\n
+• social workers\n
+• nurses\n
+• dentists.\n
+            "
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="center"
+                android:text="Where to get help"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="left"
+                android:text="• Your GP (doctor)\n
+• Your local community health centre or another health practitioner\n
+            "
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="to go back" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

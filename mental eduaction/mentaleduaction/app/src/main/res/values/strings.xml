@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">mental eduaction</string>
+    <string name="hello"></string>
+    <string name="about"></string>
+    <string name="hyperlink">to learn more about this app\n<a href="https://youtube.com">LearnToDroid.com</a></string>
+    <string name="depression"><u>DEPRESSION</u></string>
+</resources>

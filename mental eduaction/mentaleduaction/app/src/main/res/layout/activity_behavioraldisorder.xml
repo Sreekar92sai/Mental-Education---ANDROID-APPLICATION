@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BA4A00">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="center"
+                android:text="Behavioural and emotional disorders in children"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="left"
+                android:text="Common behaviour disorders in children include oppositional defiant disorder (ODD), conduct disorder (CD) and
+            attention deficit hyperactivity disorder (ADHD). Treatment for these mental health disorders can include therapy,
+            education and medication.
+            "
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="center"
+                android:text="Oppositional defiant disorder"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="left"
+                android:text="Around one in ten children under the age of 12 years are thought to have oppositional defiant disorder (ODD),
+with boys outnumbering girls by two to one. Some of the typical behaviours of a child with ODD include:\n
+• Easily angered, annoyed or irritated\n
+• Frequenttemper tantrums\n
+• Argues frequently with adults, particularly the most familiar adults in their lives, such as parents\n
+• Refuses to obey rules\n
+• Seems to deliberately try to annoy or aggravate others\n
+• Low self-esteem\n
+• Low frustration threshold\n
+• Seeks to blame others for any misfortunes or misdeeds\n"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="center"
+                android:text="Conduct disorder"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="left"
+                android:text="Children with conduct disorder (CD) are often judged as ‘bad kids’ because of their delinquent behaviour and
+refusal to accept rules. Around five per cent of 10 year olds are thought to have CD, with boys outnumbering girls
+by four to one. Around one-third of children with CD also have attention deficit hyperactivity disorder (ADHD).
+Some of the typical behaviours of a child with CD may include:\n
+• Frequent refusal to obey parents or other authority figures\n
+• Repeated truancy\n
+• Tendency to use drugs, including cigarettes and alcohol, at a very early age\n
+• Lack of empathy for others\n
+• Being aggressive to animals and other people or showing sadistic behaviours including bullying and
+physical or sexual abuse\n
+• Keenness to start physical fights\n
+• Using weapons in physical fights\n
+• Frequent lying\n
+• Criminal behaviour such as stealing, deliberately lighting fires, breaking into houses and vandalism\n
+• A tendency to run away from home\n
+• Suicidal tendencies – although these are more rare.\n
+"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+            <TextView
+            android:id="@+id/textView47"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/stich"
+            android:gravity="center"
+            android:text="Attention deficit hyperactivity disorderConduct disorder"
+            android:textColor="@color/white"
+            android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="left"
+                android:text="Around two to five per cent of children are thought to have attention deficit hyperactivity disorder (ADHD), with
+boys outnumbering girls by three to one. The characteristics of ADHD can include:\n
+• Inattention – difficulty concentrating, forgetting instructions, moving from one task to another without
+completing anything.\n
+• Impulsivity – talking over the top of others, having a ‘short fuse’, being accident-prone.\n
+• Overactivity – constant restlessness and fidgeting.\n
+"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="center"
+                android:text="Where to get help"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="left"
+                android:text="• Your doctor (for a referral to a specialist service below)/n
+• Paediatrician\n
+• Child psychologist\n
+• Child psychiatrist\n
+"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="to go back" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

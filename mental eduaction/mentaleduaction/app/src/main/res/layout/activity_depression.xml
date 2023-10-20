@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".depression"
+    android:background="#AF7AC5 ">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/stich"
+                android:gravity="center"
+                android:text="@string/depression"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/stich"
+                android:gravity="left"
+                android:text="Depression is a mood disorder characterised by lowering of mood, loss of interest
+and enjoyment, and reduced energy. It is not just feeling sad. There are different
+types and symptoms of depression. There are varying levels of severity and
+symptoms related to depression. Symptoms of depression can lead to increased risk
+of suicidal thoughts or behaviours."
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="Symptoms"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="192dp"
+                android:text="Depression affects how people think, feel and act. Depression makes it more difficult
+to manage from day to day and interferes with study, work and relationships. A
+person may be depressed if for more than two weeks they have felt sad, down or
+miserable most of the time or have lost interest or pleasure in most of their usual
+activities, and have also experienced several of the signs and symptoms across at
+least three of the categories in the list below. It’s important to note, everyone
+experiences some of these symptoms from time to time and it may not necessarily
+mean a person is depressed. Equally, not every person who is experiencing
+depression will have all of these symptoms."
+                android:textColor="@color/white"
+                android:gravity="left"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:text="Feelings caused by depression"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:text="A person with depression may feel:
+• sad\n
+• miserable\n
+• unhappy\n
+• irritable\n
+• overwhelmed\n
+• guilty\n
+• frustrated\n
+• lacking in confidence\n
+• indecisive\n
+• unable to concentrate\n
+• disappointed\n"
+                android:textColor="@color/white"
+                android:gravity="left"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thoughts caused by depression"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A person with depression may have thoughts such as:
+• ‘I’m a failure.’\n
+• ‘It’s my fault.’\n
+• ‘Nothing good ever happens to me.’\n
+• ‘I’m worthless.’\n
+• ‘There is nothing good in my life.’\n
+• ‘Things will never change.’\n
+• ‘Life’s not worth living.’\n
+• ‘People would be better off without me.’\n"
+                android:textColor="@color/white"
+                android:gravity="left"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Behavioural symptoms of depression"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A person with depression may:
+• withdraw from close family and friends\n
+• stop going out\n
+• stop their usual enjoyable activities\n
+• not get things done at work or school\n
+• rely on alcohol and sedatives.\n
+"
+                android:textColor="@color/white"
+                android:gravity="left"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Causes of depression"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="While the exact cause of depression isn’t known, a number of things can be
+associated with its development. Generally, depression does not result from a single
+event, but from a combination of biological, psychological, social and lifestyle factors.
+"
+                android:textColor="@color/white"
+                android:gravity="left"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Where to get help"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•Your GP (doctor)\n
+• Your local community health centre
+"
+                android:textColor="@color/white"
+                android:gravity="left"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Where to get help"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•Your GP (doctor)\n
+• Your local community health centre
+"
+                android:textColor="@color/white"
+                android:gravity="left"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="videos that can help"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:fontFamily="@font/stich"/>
+
+            <TextView
+                android:id="@+id/thelink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/stich"
+                android:gravity="center"
+                android:text="@string/hyperlink"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="to go back" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

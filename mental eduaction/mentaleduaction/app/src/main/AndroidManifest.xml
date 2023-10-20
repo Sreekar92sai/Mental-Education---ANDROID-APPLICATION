@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MentalEduaction">
+        <activity
+            android:name=".anxiety2"
+            android:exported="false" />
+        <activity
+            android:name=".PTSD"
+            android:exported="false" />
+        <activity
+            android:name=".OCD"
+            android:exported="false" />
+        <activity
+            android:name=".eatingdisorders"
+            android:exported="false" />
+        <activity
+            android:name=".Bipolar"
+            android:exported="false" />
+        <activity
+            android:name=".behavioraldisorder"
+            android:exported="false" />
+        <activity
+            android:name=".depression"
+            android:exported="false" />
+        <activity
+            android:name=".types"
+            android:exported="false" />
+        <activity
+            android:name=".Aboutapp"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bipolar"
+    android:background="#2E86C1">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="center"
+                android:text="Bipolar"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="left"
+                android:text="Bipolar affective disorder is a type of mood disorder, previously referred to as ‘manic depression’. A person with bipolar
+disorder experiences episodes of mania (elation) and depression. The person may or may not experience psychotic symptoms.
+The exact cause is unknown, but a genetic predisposition has been clearly established. Environmental stressors can also
+trigger episodes of this mental illness
+            "
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="center"
+                android:text="Behavioural and emotional disorders in children"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="left"
+                android:text="There are a number of different types of bipolar and related disorders.\n\n
+Bipolar I disorder\n
+People with bipolar I disorder typically experience:\n
+• one or more manic episodes (extreme highs) lasting at least one week, as well as\n
+• depressive episodes, and\n
+• psychotic episodes.\n
+With bipolar I disorder, episodes of mania are severe enough to interfere with day-to-day life.\n
+Bipolar II disorder\n\n
+People with bipolar II disorder typically experience both hypomanic and depressive episodes.\n
+A person with hypomania will experience similar symptoms to someone with mania, but less intensely.\n
+Hypomania associated with bipolar II lasts only a few hours or days (rather than weeks of mania, as with bipolar I). Although
+bipolar II disorder has less severe symptoms than bipolar I disorder, it can be chronic (ongoing).\n
+Depressive symptoms associated with bipolar II disorder are often more frequent and longer-lasting.\n\n
+Cyclothymic disorder\n
+Cyclothymic disorder is characterised by persistent and unpredictable changes in mood. The highs and lows are much less
+extreme than for bipolar I and II disorder, and the episodes are shorter.
+Causes of bipolar disorder\n
+The exact cause of bipolar disorder is not known. Contributing factors may include:\n
+• genetics\n
+• brain chemicals\n
+• environmental factors\n
+• physical illness\n
+• stress.\n
+            "
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="center"
+                android:text="Treatment for bipolar disorder"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="left"
+                android:text="Bipolar disorder requires long-term treatment and management. Treatment options may include:\n
+            • mood-stabilising medications\n
+            • antidepressant medications\n
+            • anti-psychotic medications\n
+            • psychological therapies\n
+            • hospitalisation – for appropriate treatment during acute episodes\n
+            • education – to help people understand and manage their condition and be more self-sufficient\n
+            • community support programs – to provide rehabilitation, accommodation and employment support\n
+            • self-help groups for emotional support and understanding.\n
+            "
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="center"
+                android:text="Where to get help"
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stich"
+                android:gravity="left"
+                android:text="• Your GP (doctor)\n
+• Psychiatrist\n
+            "
+                android:textColor="@color/white"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="to go back" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
